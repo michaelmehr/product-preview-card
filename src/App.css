@@ -1,0 +1,21 @@
+/* --------------------------- */
+/*      Custom Properties      */
+/* --------------------------- */
+
+:root {
+
+  /* Colors */
+
+  --clr-dark-cyan: 158 36% 37%;
+  --clr-cream: 30 38% 92%;
+
+  --clr-very-dark-blue: 212 21% 14%;
+  --clr-dark-grayish-blue: 228 12% 48%;
+  --clr-white: 0 0% 100%;
+
+  /* Typography */
+
+  --ff-serif: 'Fraunces';
+  --ff-sans-serif: 'Montserrat';
+
+}
