@@ -4,6 +4,11 @@
 
 :root {
 
+  /* Display Widths */
+
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+
   /* Colors */
 
   --clr-dark-cyan: 158 36% 37%;
@@ -14,6 +19,8 @@
   --clr-white: 0 0% 100%;
 
   /* Typography */
+
+  --fs-paragraph: 14px;
 
   --ff-serif: 'Fraunces';
   --ff-sans-serif: 'Montserrat';
