@@ -115,6 +115,10 @@
 
   border: none;
   border-radius: .75em;
+
+  font-weight: 700;
+
+  z-index: 1;
 }
 
 .price {
