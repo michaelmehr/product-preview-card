@@ -79,7 +79,7 @@
 }
 
 .product-preview-card > div {
-  width: 25rem;
+  width: 20rem;
 }
 
 .product-image {
@@ -121,6 +121,11 @@
   z-index: 1;
 }
 
+.btn-add-to-cart:hover,
+.btn-add-to-cart:focus {
+  background-color: hsl( var(--clr-very-dark-blue) );
+}
+
 .price {
   font-size: 36px;
   color: hsl( var(--clr-dark-cyan) / 1 );
@@ -137,4 +142,16 @@
 .cart {
   object-fit: contain;
   margin-right: 1em;
+}
+
+@media (max-width: 599px) {
+  
+  .product-preview-card {
+    flex-direction: column;
+  }
+
+  .product-image {
+    background-image: url("assets/image-product-mobile.jpg");
+  }
+
 }
